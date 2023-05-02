@@ -1,0 +1,15 @@
+-- comados sql
+-- dividem duas linguagens 
+-- DDL(Data Definition Language)
+
+-- ex: cretate database name 
+-- drop database name 
+-- create table name (colunas)
+--  drop table name 
+-- ----------------------------------------------------------------------
+-- DML (DATA MANIPULATION LANGUAGE)
+-- COMANDOS DE MANIPULAÇÃO DE DADOS
+-- SELECT COLUNAS FROM TABELA 
+-- INSERT INTO TABELA (COLUNA) VALUES (VALORES)
+-- DELETE FROM TABELA 
+-- UPDATE COLUNAS FROM TABELA
