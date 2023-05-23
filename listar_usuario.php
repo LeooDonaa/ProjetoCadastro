@@ -20,7 +20,7 @@
         <tr>
             <th>Código</th>
             <th>Nome</th>
-            <th>Email</th>
+            <th>Email</th> 
             <th>Telefone</th>
         </tr>
         <?php
@@ -31,7 +31,7 @@
             echo"<td>".$row['email_usuario']."</td>";
             echo"<td>".$row['fone_usuario']."</td>";
             echo"<td><a href='altera_usuario.php?id_usuario=".$row['id_usuario']."'>Alterar</a></td>";
-
+            echo"<td><a href='exclui_usuario.php?id_usuario=".$row['id_usuario']."'>Excluir</a></td>";
 
 
             echo "</tr>";
@@ -44,6 +44,12 @@
   
 </body>
 </html>
+
+
+
+
+
+
 
 
 
